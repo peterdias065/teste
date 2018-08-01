@@ -6,9 +6,5 @@
 
 	$results = $stmt->fetchall(PDO::FETCH_ASSOC);
 
-	foreach($results as $row){
-		foreach($row as $key => $value){
-			echo $key. ": " . $value . " ";
-		}
-	}
+	
 ?>
